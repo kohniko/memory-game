@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: white;
+}
+
+.container {
+  cursor: pointer;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin: 10px;
+}
+
+.container div {
+  padding: 50px;
+  height: 180px;
+  width: 100px;
+  background-color: gray;
+  border: 1px solid rgb(36, 82, 168);
+}
+
+.card {
+  
+}
