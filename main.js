@@ -16,7 +16,8 @@ function shuffleArray(array) {
 
 let cards = document.querySelectorAll('.card');
 let reverseCard = 0;
-let card1, card2;
+let card1 = null;
+let card2 = null;
 
 let numbers = Array.from({ length: cards.length }, (_, index) => Math.floor(index / 2) + 1);
 let shuffledNumbers = shuffleArray(numbers);
