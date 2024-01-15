@@ -25,7 +25,7 @@ body {
   width: 100px;
   background-color: rgb(0, 0, 0);
   border: 1px solid rgb(50, 102, 199);
-  transition: background-color 0.3s ease;
+  transition: background-color 1s ease;
 }
 
 .container div.clicked {
